@@ -45,7 +45,6 @@ getColorRequest.onload = function() {
 changeColorRequest.onload = function() {
   if (changeColorRequest.status === 200) { // if the server status was ok
     toggleColor(); // toggle the color
-    console.log(changeColorRequest.responseText);
   }
 };
 

@@ -14,10 +14,6 @@
 
   if ($userColor == $serverColor) { // if the user and the server are on the same color
     toggleServerColor($serverColor); // toggle the server's color
-    echo "Color updated.";
-  }
-  else { // if the user and the server are on different colors (somebody else has already changed the server's color)
-    echo "Somebody beat you to it!";
   }
 
 ?>
