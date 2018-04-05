@@ -36,7 +36,7 @@ getColorRequest.onload = function() {
     serverColor = getColorRequest.responseText; // store the server's response, the color of the box on the server
 
     if (boxColor !== serverColor) { // if the user's box is not up to date
-      toggleColor(); // toggle it
+      box.className = serverColor; // update the user's box
     }
   }
 }
